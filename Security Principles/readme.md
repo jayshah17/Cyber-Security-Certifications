@@ -25,4 +25,11 @@ All aobout CIA Triad
 
 -> Module 3: Understand Security Controls
 
-  - 
+  - Security controls pertain to the physical, technical and administrative mechanisms that act as safeguards or countermeasures prescribed for an information system to protect the confidentiality, integrity and availability of the system and its information. 
+
+  ![image](https://github.com/jayshah17/Cyber-Security-Certifications/assets/76842630/6d6fa9eb-dc9c-4a4b-be16-8c9931bcdeff)
+
+-> Module 4: Understand Governance Elements and Processes
+
+Governance: The process of how an organization is managed; usually includes all aspects of how decisions are made for that organization, such as policies, roles, and procedures the organization uses to make those decisions.
+
