@@ -88,3 +88,15 @@ Service-Level Agreement (SLA)
 ![image](https://github.com/jayshah17/Cyber-Security-Certifications/assets/76842630/e6f4ca8e-59dd-4cad-b5d7-c39a0958bc1a)
 
 ### Zero Trust
+
+- Zero trust is an evolving design approach which recognizes that even the most robust access control systems have their weaknesses. It adds defenses at the user, asset and data level, rather than relying on perimeter defense. In the extreme, it insists that every process or action a user attempts to take must be authenticated and authorized; the window of trust becomes vanishingly small.
+
+- ![image](https://github.com/jayshah17/Cyber-Security-Certifications/assets/76842630/c7ba1b93-152b-441a-b9c1-865e6a59478a)
+
+
+### Network Access Control (NAC)
+
+### Network Segmentation (Demilitarized Zone (DMZ))
+
+- Network segmentation is also an effective way to achieve defense in depth for distributed or multi-tiered applications. The use of a demilitarized zone (DMZ), for example, is a common practice in security architecture.
+- With a DMZ, host systems that are accessible through the firewall are physically separated from the internal network by means of secured switches or by using an additional firewall to control traffic between the web server and the internal network. 
