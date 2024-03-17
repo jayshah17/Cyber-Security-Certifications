@@ -91,12 +91,25 @@ Service-Level Agreement (SLA)
 
 - Zero trust is an evolving design approach which recognizes that even the most robust access control systems have their weaknesses. It adds defenses at the user, asset and data level, rather than relying on perimeter defense. In the extreme, it insists that every process or action a user attempts to take must be authenticated and authorized; the window of trust becomes vanishingly small.
 
-- ![image](https://github.com/jayshah17/Cyber-Security-Certifications/assets/76842630/c7ba1b93-152b-441a-b9c1-865e6a59478a)
-
+- ![image](https://github.com/jayshah17/Cyber-Security-Certifications/assets/76842630/c7ba1b93-152b-441a-b9c1-865e6a59478a
 
 ### Network Access Control (NAC)
 
 ### Network Segmentation (Demilitarized Zone (DMZ))
 
 - Network segmentation is also an effective way to achieve defense in depth for distributed or multi-tiered applications. The use of a demilitarized zone (DMZ), for example, is a common practice in security architecture.
-- With a DMZ, host systems that are accessible through the firewall are physically separated from the internal network by means of secured switches or by using an additional firewall to control traffic between the web server and the internal network. 
+- With a DMZ, host systems that are accessible through the firewall are physically separated from the internal network by means of secured switches or by using an additional firewall to control traffic between the web server and the internal network.
+
+
+### Microsegmentation
+
+- When organizations avoid infrastructure-centric design paradigms, they are more likely to become more efficient at service delivery in the data center and become apt at detecting and preventing advanced persistent threats.
+- The toolsets of current adversaries are polymorphic in nature and allow threats to bypass static security controls. Modern cyberattacks take advantage of traditional security models to move easily between systems within a data center.
+- Microsegmentationis all about writing rules as a logical rules to restrict IP addresses can communicate a given machine.
+- This is ultmiate end state of defense in depth solution.
+- It allows the organization to limit which business functions/ departments can communicate with others in order to enforce the concept of least privilege.
+
+ ### Virtual Local Area Network(VLAN)
+
+ - 
+-  
