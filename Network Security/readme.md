@@ -111,5 +111,14 @@ Service-Level Agreement (SLA)
 
  ### Virtual Local Area Network(VLAN)
 
- - 
--  
+- Virtual local area networks (VLANs) allow network administrators to use switches to create software-based LAN segments, which can segregate or consolidate traffic across multiple switch ports.
+-  Devices that share a VLAN communicate through switches as if they were on the same Layer 2 network.
+-  This image shows different VLANs — red, green and blue — connecting separate sets of ports together, while sharing the same network segment (consisting of the two switches and their connection).
+-  VLANs are used to segment the network traffic
+
+### Virtual Private Network 
+
+- A virtual private network (VPN) is not necessarily an encrypted tunnel. It is simply a point-to-point connection between two hosts that allows them to communicate.
+- Secure communications can, of course, be provided by the VPN, but only if the security protocols have been selected and correctly configured to provide a trusted path over an untrusted network, such as the internet.
+-  Remote users employ VPNs to access their organization’s network, and depending on the VPN’s implementation, they may have most of the same resources available to them as if they were physically at the office.
+-  As an alternative to expensive dedicated point-to-point connections, organizations use gateway-to-gateway VPNs to securely transmit information over the internet between sites or even with business partners. 
