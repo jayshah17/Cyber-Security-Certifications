@@ -47,3 +47,15 @@
 
 
 - Organizations must maintain adherence to retention policy for logs as prescribed by law, regulations and corporate governance.
+
+###  Understand Best Practice Security Policies
+
+Policies will be set according to the needs of the organization and its vision and mission. Each of these policies should have a penalty or a consequence attached in case of noncompliance. 
+
+
+
+
+
+
+
+
