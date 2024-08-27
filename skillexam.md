@@ -11,7 +11,7 @@ From Wireshark we can analyse that all pdfs have same link to download which see
 
 ![image](https://github.com/user-attachments/assets/12bd1680-9487-49dd-939e-32e3be7138ec)
 
-- > We got the copy of email in .eml format so we can decode it to analyse and we get that files are having pdf as attachment
+- > We got the copy of email in .eml format so we can decode it to analyse and we get that files are having pdf as attachment.
 
   ![image](https://github.com/user-attachments/assets/7a92c376-6b3c-402c-8963-8e552fcf3087)
 
