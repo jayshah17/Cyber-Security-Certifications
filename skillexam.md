@@ -52,4 +52,41 @@ Malspam (Malicious Spam): The presence of an email file related to malspam pushi
 
 ![image](https://github.com/user-attachments/assets/4d871b48-30a8-4779-8c1d-7f20bc2ecef7)
 
-3.
+On analysing the pcap file with dns filter
+
+![image](https://github.com/user-attachments/assets/f0d790ba-680e-4f12-adc6-36d9e0a96ae7)
+
+![image](https://github.com/user-attachments/assets/b4bc27b6-ef1c-46bd-a10d-861ab9f70477)
+
+The DNS queries are from a client machine (IP: 10.1.30.101) querying for domains associated with the infection.
+This text file lists URLs and domains that were abused for malicious purposes, including:
+- hxxps://adclick.g.doubleclick.net/pcs/click?f957443683554531pn9713-24-QfP574vIONEZlkd&&adurl=//projetodegente.com/
+
+- hxxps://monitor.clickcease.com/tracker/tracker?id=vvabeFIqY827477154919rN15733877717t94&adpos=&nw=a&url=//projetodegente.com/
+
+- Note: doubleclick.net and clickcease.com are legitimate, but they were abused in URLs that led to projetodegent.com. 
+  The domain projetodegente.com is also a legitimate website, but it was redirecting traffic for this campaign.
+
+
+This `hxxps://www.verxy.me/wp-content/uploads/2023/12/s/s/letter-F54876-2024.cab` url gives a download option and cab file gets downloaded.  In addition to the .url file, this cab contains a zero byte decoy file named Cloud-Extract to Documents.txt
+
+Extracted .url files and .msi installer
+
+- 5.252.178.193 port 80 - 5.252.178.193 - OPTIONS / HTTP/1.1 
+- 5.252.178.193 port 80 - 5.252.178.193 - OPTIONS /Downloads HTTP/1.1 
+- 5.252.178.193 port 80 - 5.252.178.193 - PROPFIND /Downloads/independert.zip/independert.msi HTTP/1.1 
+- 5.252.178.193 port 80 - 5.252.178.193 - PROPFIND /Downloads/independert.zip HTTP/1.1 
+- 5.252.178.193 port 80 - 5.252.178.193 - GET /Downloads/independert.zip HTTP/1.1 
+
+•	The correlation between the screenshots shows that the DNS queries in the .pcap file are related to the infection activity outlined in the text file.
+•	The system made DNS requests to domains that are known to be associated with the distribution and execution of DarkGate malware, confirming that the traffic captured is indeed indicative of malicious activity.
+
+![image](https://github.com/user-attachments/assets/036586f4-29a0-46dd-9c47-4891c18e1bd8)
+
+Here we can see they are directly targeting to update Windows Registry Value.
+
+•	The DNS queries captured in the .pcap file likely occurred during or after these downloads, as the malware attempts to reach out to C2 servers or download additional payloads.
+•	The text file mentions the download and execution of malicious files, such as a .cab file from projetodgente.com, which, when extracted, led to further malware execution (MSI installer leading to .au3 and .exe files).
+
+Copy of Autoit3.exe, version 3.3.14.5, not malicious but used to run malicious .au3 file
+
