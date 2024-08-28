@@ -79,6 +79,7 @@ Extracted .url files and .msi installer
 - 5.252.178.193 port 80 - 5.252.178.193 - GET /Downloads/independert.zip HTTP/1.1 
 
 •	The correlation between the screenshots shows that the DNS queries in the .pcap file are related to the infection activity outlined in the text file.
+
 •	The system made DNS requests to domains that are known to be associated with the distribution and execution of DarkGate malware, confirming that the traffic captured is indeed indicative of malicious activity.
 
 ![image](https://github.com/user-attachments/assets/036586f4-29a0-46dd-9c47-4891c18e1bd8)
@@ -86,6 +87,7 @@ Extracted .url files and .msi installer
 Here we can see they are directly targeting to update Windows Registry Value.
 
 •	The DNS queries captured in the .pcap file likely occurred during or after these downloads, as the malware attempts to reach out to C2 servers or download additional payloads.
+
 •	The text file mentions the download and execution of malicious files, such as a .cab file from projetodgente.com, which, when extracted, led to further malware execution (MSI installer leading to .au3 and .exe files).
 
 Copy of Autoit3.exe, version 3.3.14.5, not malicious but used to run malicious .au3 file
